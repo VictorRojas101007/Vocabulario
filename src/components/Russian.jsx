@@ -57,7 +57,7 @@ const Russian = ({
 
     return (
         <div className='wordContainer'>
-            <h1>Russian</h1>
+            <h1>Ruso</h1>
             <input 
                 type="text" 
                 placeholder="Busca la palabra en ruso" 

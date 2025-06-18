@@ -42,7 +42,7 @@ const Spanish =({searchTerm, setSearchTerm, searchResult, setSearchResult, vocab
 
   return (
     <div className="wordContainer">
-    <h1>Spanish</h1>
+    <h1>Español</h1>
     <input 
         type="text" 
         placeholder="Busca la palabra en español" 
