@@ -12,14 +12,12 @@ const Russian = ({
   error,
   setError
 }) => {
-   
-
     // Cargar datos del vocabulario con fetch
     useEffect(() => {
         const loadVocabulary = async () => {
             try {
                 setLoading(true);
-                const response = await fetch('/src/vocabulary.json');
+                const response = await fetch('/vocabulary.json'); 
                 if (!response.ok) {
                     throw new Error('Error al cargar el vocabulario');
                 }
@@ -45,7 +43,7 @@ const Russian = ({
             return;
         }
         
-        // Buscar palabras rusas para obtener traducción al español
+        
         const foundWord = vocabularyData.find(item => 
             item.russian.toLowerCase() === term
         );

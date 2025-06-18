@@ -11,19 +11,18 @@ function App() {
   const [error, setError] = useState(null);
   const [language, setLanguage] = useState(true)
 
+  const handleClick=()=>{
+    setLanguage(!language);
+    setSearchTerm(searchResult);
+    setSearchResult(searchTerm);
+  }
   return (
     <>
     <header className='headerContainer'>
     <h1>Vocabulario</h1>
     <div className="buttonContainer">
-    <button onClick={()=>{setLanguage(true);
-      setSearchTerm(searchResult);
-      setSearchResult(searchTerm);
-    }}> Español </button>
-    <button onClick={()=>{setLanguage(false);
-      setSearchTerm(searchResult);
-      setSearchResult(searchTerm);
-    }}>  Русский </button>
+    <a onClick={handleClick}> Español </a>
+    <a onClick={handleClick}> Русский </a>
     </div>
     </header>
     <div className="vocabularioContainer">

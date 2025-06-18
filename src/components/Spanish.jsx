@@ -5,7 +5,7 @@ const Spanish =({searchTerm, setSearchTerm, searchResult, setSearchResult, vocab
     const loadVocabulary = async ()=>{
         try{
             setLoading(true);
-            const response= await fetch('/src/vocabulary.json');
+            const response= await fetch('/vocabulary.json'); 
             if (!response.ok) {
                 throw new Error('Error al cargar el vocabulario');
             }
@@ -29,7 +29,7 @@ const Spanish =({searchTerm, setSearchTerm, searchResult, setSearchResult, vocab
         setSearchResult('');
         return;
     }
-    // Cambiar la búsqueda: buscar palabras españolas para obtener traducción al ruso
+    
     const foundWord =vocabularyData.find((item)=>
     item.spanish.toLowerCase() === term
     );
