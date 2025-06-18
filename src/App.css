@@ -10,7 +10,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
+ 
   gap: 5px;
 }
 .vocabularioContainer{
@@ -21,4 +23,15 @@
   justify-content: center;
   gap: 10px;
   width: 100%;
+}
+@media screen and (max-width: 500px) {
+  .wordContainer{
+    text-align: center;
+  }
+  a{
+    max-width: 90px;
+  }
+  .header__h1{
+    font-size: 1.5rem;
+  }
 }

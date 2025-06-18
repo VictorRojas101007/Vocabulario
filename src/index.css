@@ -69,11 +69,3 @@ input{
   }
 }
 
-@media screen and (max-width: 768px) {
-  .wordContainer{
-    text-align: center;
-  }
-  a{
-    max-width: 90px;
-  }
-}
