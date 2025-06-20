@@ -226,6 +226,133 @@
     {
         "spanish": "Droga",
         "russian" : "Наркотик"
+    },
+    {
+        "spanish": "Café",
+        "russian" : "Кофе"
+    },
+    {
+        "spanish": "Hacer",
+        "russian" : "Делать"
+    },
+    {
+        "spanish": "Cena",
+        "russian" : "Обед"
+    },
+    {
+        "spanish": "Comida",
+        "russian" : "Еда"
+    },
+    {
+        "spanish": "Hora",
+        "russian" : "Час"
+    },
+    {
+        "spanish": "Día",
+        "russian" : "День"
+    },
+    {
+        "spanish": "Mes",
+        "russian" : "Месяц"
+    },
+    {
+        "spanish": "Año",
+        "russian" : "Год"
+    },
+    {
+        "spanish": "Mediodia",
+        "russian" : "Полдень"
+    },
+    {
+        "spanish": "Tarde",
+        "russian" : "Утром"
+    },
+    {
+        "spanish": "Noche",
+        "russian" : "Ночь"
+    },
+    {
+        "spanish": "Madrugada",
+        "russian" : "Ночью"
+    },
+    {
+        "spanish": "Medianoche",
+        "russian" : "Полночь"
+    },
+    {
+        "spanish": "En una hora",
+        "russian" : "Через час"
+    },
+    {
+        "spanish": "Clima",
+        "russian" : "Погода"
+    },
+    {
+        "spanish": "Hace frio",
+        "russian" : "Холодно"
+    },
+    {
+        "spanish": "Hace calor",
+        "russian" : "Жарко"
+    },
+    {
+        "spanish": "Templado",
+        "russian" : "Тепло"
+    },
+    {
+        "spanish": "Nieve",
+        "russian" : "Снег"
+    },
+    {
+        "spanish": "Lluvia",
+        "russian" : "Дождь"
+    },
+    {
+        "spanish": "Viento",
+        "russian" : "Ветер"
+    },
+    {
+        "spanish": "Ventoso",
+        "russian" : "Ветерно "
+    },
+    {
+        "spanish": "Sol",
+        "russian" : "Солнце"
+    },
+    {
+        "spanish": "Soleado",
+        "russian" : "Солнечно"
+    },
+    {
+        "spanish": "Nublado",
+        "russian" : "Облачно"
+    },
+    {
+        "spanish": "Nublado oscuro",
+        "russian" : "Пасмурно"
+    },
+    {
+        "spanish": "Tormenta",
+        "russian" : "Гроза"
+    },
+    {
+        "spanish": "Verano",
+        "russian" : "Лето" 
+    },
+    {
+        "spanish": "Otoño",
+        "russian" : "Осень"
+    },
+    {
+        "spanish": "Invierno",
+        "russian" : "Зима"
+    },
+    {
+        "spanish": "Primavera",
+        "russian" : "Весна"
+    },
+    {
+        "spanish": "Calle",
+        "russian" : "Улица"
     }
-   
-]
+]   
