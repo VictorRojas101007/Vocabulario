@@ -1,63 +1,41 @@
-import { useState } from 'react'
 import './App.css'
-import Spanish from './components/Spanish'
-import Russian from './components/Russian'
+import { NavLink } from 'react-router-dom';
+
+
+export const vocabularyLoader = async () => {
+  try {
+    const response = await fetch('/vocabulary.json');
+    if (!response.ok) {
+      throw new Error('Error al cargar el vocabulario');
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    throw new Response('Error al cargar el vocabulario', { status: 500 });
+  }
+};
 
 function App() {
-  const [searchTerm, setSearchTerm] = useState('');
-  const [searchResult, setSearchResult] = useState('');
-  const [vocabularyData, setVocabularyData] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const [language, setLanguage] = useState(true)
-
-  const handleClick=(isSpanish)=>{
-    // Solo cambiar si el idioma es diferente al actual
-    if (language !== isSpanish) {
-      setLanguage(isSpanish);
-      setSearchTerm(searchResult.charAt(0).toUpperCase() + searchResult.slice(1).toLowerCase());
-      setSearchResult(searchTerm.charAt(0).toUpperCase() + searchTerm.slice(1).toLowerCase());
-    }
-  }
-  return (
-    <>
-    <header className='headerContainer'>
-    <h1 className='header__h1'>Vocabulario</h1>
-    <div className="buttonContainer">
-    <a onClick={() => handleClick(true)}> Español </a>
-    <a onClick={() => handleClick(false)}> Русский </a>
-    </div>
-    </header>
-    <div className="vocabularioContainer">
-    {language ? (
-        <Spanish 
-        searchTerm={searchTerm}
-          setSearchTerm={setSearchTerm}
-          searchResult={searchResult}
-          setSearchResult={setSearchResult}
-          vocabularyData={vocabularyData}
-          setVocabularyData={setVocabularyData}
-          setLoading={setLoading}
-          loading={loading}
-          error={error}
-          setError={setError}
-        />
-      ) : (
-        <Russian 
-          searchTerm={searchTerm}
-          setSearchTerm={setSearchTerm}
-          searchResult={searchResult}
-          setSearchResult={setSearchResult}
-          vocabularyData={vocabularyData}
-          setVocabularyData={setVocabularyData}
-          setLoading={setLoading}
-          loading={loading}
-          error={error}
-          setError={setError}
-        />
-      )}
+return (
+  <div className="body">
+  <header className='headerContainer'>
+    <h1>¡Aprende Ruso!</h1>
+  </header>
+    <div className='dictionaryContainer'>
+      <div className="vocabularyContainer">
+        <NavLink className={"navLinkVocabulary"} to="/traduction">
+          <h2>Traduce</h2>
+          <img src="https://th.bing.com/th/id/OIP.qiCwDVaUzVBPPqwoH-LzHAHaGN?rs=1&pid=ImgDetMain&cb=idpwebpc2" alt="vocabulario" />
+        </NavLink>
       </div>
-    </>
+      <div className="cardsContainer">
+        <NavLink className={"navLinkCards"} to="/cards">
+        <h2>Cartas</h2>
+        <img  src="https://ecdn.teacherspayteachers.com/thumbitem/Tarjetas-para-trabajar-el-vocabulario-VOCABULARY-CARDS-FLASHCARDS--7437227-1636905281/original-7437227-1.jpg" alt="cards" />
+        </NavLink>
+      </div>
+    </div>
+    </div>
   )
 }
 

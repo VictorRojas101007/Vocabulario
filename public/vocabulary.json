@@ -5,354 +5,444 @@
     },
     {
         "spanish": "Agua",
-        "russian": "Вода"
+        "russian": "Вода",
+        "plural":"Воды"
     },
     {
         "spanish": "Casa",
-        "russian": "Дом"
+        "russian": "Дом",
+        "plural":"Дома"
     },
     {
-        "spanish": "perro",
-        "russian": "Собака"
+        "spanish": "Perro",
+        "russian": "Собака",
+        "plural":"Собаки"
     },
     {
         "spanish": "Gato",
-        "russian": "Кошка"
+        "russian": "Кошка",
+        "plural":"Кошки"
     },
     {
         "spanish": "Carro",
-        "russian": "Машина"
+        "russian": "Машина",
+        "plural":"Машины"
     },
     {
         "spanish": "Arbol",
-        "russian": "Дерево"
+        "russian": "Дерево",
+        "plural":"Деревья"
     },
     {
         "spanish": "Flor",
-        "russian": "Цветок"
+        "russian": "Цветок",
+        "plural":"Цветы"
     },
     {
         "spanish": "Libro",
-        "russian": "Книга"
+        "russian": "Книга",
+        "plural":"Книги"
     },
     {
         "spanish": "Ropa",
-        "russian": "Одежда"
+        "russian": "Одежда",
+        "plural":"Одежда"
     },
     {
-        "spanish": "Ojos",
-        "russian": "Глаза"
+        "spanish": "Ojo",
+        "russian": "Глаз",
+        "plural":"Глаза"
     },
     {
         "spanish": "Comida",
-        "russian": "Еда"
+        "russian": "Еда",
+        "plural":"Еда"
     },
     {
         "spanish": "Escarabajo",
-        "russian": "Жук"
+        "russian": "Жук",
+        "plural":"Жуки"
     },
     {
         "spanish": "Paraguas",
-        "russian": "Зонтик"
+        "russian": "Зонтик",
+        "plural":"Зонтики"
     },
     {
         "spanish": "Cepillo",
-        "russian": "Щетка"
+        "russian": "Щетка",
+        "plural":"Щетки"
     },
     {
         "spanish": "Queso",
-        "russian": "Сыр"
+        "russian": "Сыр",
+        "plural":"Сыры"
     },
     {
-        "spanish": "Patines",
-        "russian": "Роликовые коньки"
+        "spanish": "Patin",
+        "russian": "Патин",
+        "plural":"Патин"
     },
     {
         "spanish": "Escalera",
-        "russian": "Лестница"
+        "russian": "Лестница",
+        "plural":"Лестницы"
     },
     {
         "spanish": "Escalera mecanica",
-        "russian": "Эскалатор"
+        "russian": "Эскалатор",
+        "plural":"Эскалаторы"
     },
     {
         "spanish": "Falda",
-        "russian": "Юбка"
+        "russian": "Юбка",
+        "plural":"Юбки"
     },
     {
         "spanish": "Manzana",
-        "russian": "Яблоко"
+        "russian": "Яблоко",
+        "plural":"Яблоки"
     },
     {
         "spanish": "Bote",
-        "russian": "Лодка"
+        "russian": "Лодка",
+        "plural":"Лодки"
     },
     {
         "spanish": "Tijeras",
-        "russian": "Ножницы"
+        "russian": "Ножницы",
+        "plural":"Ножницы"
     },
     {
-        "spanish": "Verduras",
-        "russian": "Овощи"
+        "spanish": "Verdura",
+        "russian": "Овощной",
+        "plural":"Овощи"
+
     },
     {
         "spanish": "Arcoiris",
-        "russian": "Радуга"
+        "russian": "Радуга",
+        "plural":"Радуги"
     },
     {
         "spanish": "Jugo",
-        "russian": "Сок"
+        "russian": "Сок",
+        "plural":"Соки"
     },
     {
         "spanish": "Oreja",
-        "russian": "Ухо"
+        "russian": "Ухо",
+        "plural":"Уши"
     },
     {
         "spanish": "Secador",
-        "russian": "Сушилка"
+        "russian": "Сушилка",
+        "plural":"Сушилки"
     },
     {
         "spanish": "Pan",
-        "russian": "Хлеб"
+        "russian": "Хлеб",
+        "plural":"Хлеб"
     },
     {
         "spanish": "Toro",
-        "russian": "Бык"
+        "russian": "Бык",
+        "plural":"Быки"
     },
     {
         "spanish": "Palta",
-        "russian": "Авокадо"
+        "russian": "Авокадо",
+        "plural":"Авокадо"
     },
     {
         "spanish": "Baile",
-        "russian": "Танец"
+        "russian": "Танец",
+        "plural":"Танцы"
     },
     {
         "spanish": "Tambien",
-        "russian": "Так же"
+        "russian": "Так же",
+        "plural":""
     },
     {
         "spanish": "Tambien",
-        "russian": "Тоже"
+        "russian": "Тоже",
+        "plural":""
     },
     {
         "spanish": "Autobus",
-        "russian": "Автобус"
+        "russian": "Автобус",
+        "plural":"Автобусы"
     },
     {
         "spanish": "Deporte",
-        "russian": "Спорт"
+        "russian": "Спорт",
+        "plural":"Спорт"
     },
     {
         "spanish": "Tienda",
-        "russian": "Магазин"
+        "russian": "Магазин",
+        "plural":"Магазины"
     },
     {
         "spanish": "Farmacia",
-        "russian": "Аптека"
+        "russian": "Аптека",
+        "plural":"Аптеки"
     },
     {
         "spanish": "Cirujano",
-        "russian": "Хирург"
+        "russian": "Хирург",
+        "plural":"Хирурги"
     },
     {
         "spanish": "Medicamento",
-        "russian": "Лекарство"
+        "russian": "Лекарство",
+        "plural":"Лекарства"
     },
     {
         "spanish": "Pitagoras",
-        "russian": "Пифагор"
+        "russian": "Пифагор",
+        "plural":""
     },
     {
         "spanish": "Periodista",
-        "russian": "журналист"
+        "russian": "журналист",
+        "plural":"журналисты"
     },
     {
         "spanish": "Por supuesto",
-        "russian": "Kонечно"
+        "russian": "Kонечно",
+        "plural":""
     },
     {
         "spanish": "Es posible",
-        "russian": "Можно"
+        "russian": "Можно",
+        "plural":""
     },
     {
         "spanish": "Prohibido",
-        "russian": "Нельзя"
+        "russian": "Нельзя",
+        "plural":""
     },
     {
         "spanish": "Disculpa",
-        "russian": "Извините"
+        "russian": "Извините",
+        "plural":""
     },
     {
         "spanish": "Audífonos",
-        "russian": "Наушники"
+        "russian": "Наушники",
+        "plural":"Наушники"
     },
     {
         "spanish": "Corrector",
-        "russian": "Корректор"
+        "russian": "Корректор",
+        "plural":"Корректоры"
     },
     {
         "spanish": "Lección",
-        "russian": "Урок"
+        "russian": "Урок",
+        "plural":"Уроки"
     },
     {
         "spanish": "O",
-        "russian": "или"
+        "russian": "или",
+        "plural":""
     },
     {
         "spanish": "Genio",
-        "russian": "Гений"
+        "russian": "Гений",
+        "plural":"Гении"
     },
     {
         "spanish": "Marcador",
-        "russian": "Маркер"
+        "russian": "Маркер",
+        "plural":"Маркеры"
     },
     {
         "spanish": "Estampilla",
-        "russian": "Штамп"
+        "russian": "Штамп",
+        "plural":"Штампы"
     },
     {
         "spanish": "Estafador",
-        "russian" : "Хулиган"
+        "russian" : "Хулиган",
+        "plural":"Хулиганы"
     },
     {
         "spanish": "Sandwich",
-        "russian" : "Бутерброд"
+        "russian" : "Бутерброд",
+        "plural":"Бутерброды"
     },
     {
         "spanish": "Color",
-        "russian" : "Цвет"
+        "russian" : "Цвет",
+        "plural":"Цвета"
     },
     {
         "spanish": "Droga",
-        "russian" : "Наркотик"
+        "russian" : "Наркотик",
+        "plural":"Наркотики"
     },
     {
         "spanish": "Café",
-        "russian" : "Кофе"
+        "russian" : "Кофе",
+        "plural":"Кофе"
     },
     {
         "spanish": "Hacer",
-        "russian" : "Делать"
+        "russian" : "Делать",
+        "plural":""
     },
     {
         "spanish": "Cena",
-        "russian" : "Обед"
+        "russian" : "Обед",
+        "plural":"Обеды"
     },
     {
         "spanish": "Comida",
-        "russian" : "Еда"
+        "russian" : "Еда",
+        "plural":"Еды"
     },
     {
         "spanish": "Hora",
-        "russian" : "Час"
+        "russian" : "Час",
+        "plural":"Часы"
     },
     {
         "spanish": "Día",
-        "russian" : "День"
+        "russian" : "День",
+        "plural":"Дни"
     },
     {
         "spanish": "Mes",
-        "russian" : "Месяц"
+        "russian" : "Месяц",
+        "plural":"Месяцы"
     },
     {
         "spanish": "Año",
-        "russian" : "Год"
+        "russian" : "Год",
+        "plural":"Годы"
     },
     {
         "spanish": "Mediodia",
-        "russian" : "Полдень"
+        "russian" : "Полдень",
+        "plural":""
     },
     {
-        "spanish": "Tarde",
-        "russian" : "Утром"
+        "spanish": "Por la mañana",
+        "russian" : "Утром",
+        "plural":""
     },
     {
         "spanish": "Noche",
-        "russian" : "Ночь"
+        "russian" : "Ночь",
+        "plural":""
     },
     {
         "spanish": "Madrugada",
-        "russian" : "Ночью"
+        "russian" : "Ночью",
+        "plural":""
     },
     {
         "spanish": "Medianoche",
-        "russian" : "Полночь"
+        "russian" : "Полночь",
+        "plural":""
     },
     {
         "spanish": "En una hora",
-        "russian" : "Через час"
+        "russian" : "Через час",
+        "plural":""
     },
     {
         "spanish": "Clima",
-        "russian" : "Погода"
+        "russian" : "Погода",
+        "plural":"Погоды"
     },
     {
         "spanish": "Hace frio",
-        "russian" : "Холодно"
+        "russian" : "Холодно",
+        "plural":""
     },
     {
         "spanish": "Hace calor",
-        "russian" : "Жарко"
+        "russian" : "Жарко",
+        "plural":""
     },
     {
         "spanish": "Templado",
-        "russian" : "Тепло"
+        "russian" : "Тепло",
+        "plural":""
     },
     {
         "spanish": "Nieve",
-        "russian" : "Снег"
+        "russian" : "Снег",
+        "plural":""
     },
     {
         "spanish": "Lluvia",
-        "russian" : "Дождь"
+        "russian" : "Дождь",
+        "plural":""
     },
     {
         "spanish": "Viento",
-        "russian" : "Ветер"
+        "russian" : "Ветер",
+        "plural":""
     },
     {
         "spanish": "Ventoso",
-        "russian" : "Ветерно "
+        "russian" : "Ветерно ",
+        "plural":""
     },
     {
         "spanish": "Sol",
-        "russian" : "Солнце"
+        "russian" : "Солнце",
+        "plural":""
     },
     {
         "spanish": "Soleado",
-        "russian" : "Солнечно"
+        "russian" : "Солнечно",
+        "plural":""
     },
     {
         "spanish": "Nublado",
-        "russian" : "Облачно"
+        "russian" : "Облачно",
+        "plural":""
     },
     {
         "spanish": "Nublado oscuro",
-        "russian" : "Пасмурно"
+        "russian" : "Пасмурно",
+        "plural":""
     },
     {
         "spanish": "Tormenta",
-        "russian" : "Гроза"
+        "russian" : "Гроза",
+        "plural":"Грозы"
     },
     {
         "spanish": "Verano",
-        "russian" : "Лето" 
+        "russian" : "Лето" ,
+        "plural":""
     },
     {
         "spanish": "Otoño",
-        "russian" : "Осень"
+        "russian" : "Осень",
+        "plural":""
     },
     {
         "spanish": "Invierno",
-        "russian" : "Зима"
+        "russian" : "Зима",
+        "plural":""
     },
     {
         "spanish": "Primavera",
-        "russian" : "Весна"
+        "russian" : "Весна",
+        "plural":""
     },
     {
         "spanish": "Calle",
-        "russian" : "Улица"
+        "russian" : "Улица",
+        "plural":"Улицы"
+
     }
 ]   

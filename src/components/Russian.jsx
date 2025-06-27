@@ -6,34 +6,9 @@ const Russian = ({
   searchResult, 
   setSearchResult, 
   vocabularyData, 
-  setVocabularyData,
-  setLoading, 
-  loading,
-  error,
-  setError
 }) => {
-    // Cargar datos del vocabulario con fetch
-    useEffect(() => {
-        const loadVocabulary = async () => {
-            try {
-                setLoading(true);
-                const response = await fetch('/vocabulary.json'); 
-                if (!response.ok) {
-                    throw new Error('Error al cargar el vocabulario');
-                }
-                const data = await response.json();
-                setVocabularyData(data);
-            } catch (err) {
-                setError(err.message);
-            } finally {
-                setLoading(false);
-            }
-        };
+   
 
-        loadVocabulary();
-    }, []);
-
-    // Función para buscar la palabra
     const handleSearch = (e) => {
         const term = e.target.value.toLowerCase();
         setSearchTerm(term);

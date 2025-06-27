@@ -1,28 +1,14 @@
-import { useEffect } from "react";
-
-const Spanish =({searchTerm, setSearchTerm, searchResult, setSearchResult, vocabularyData, setVocabularyData, setLoading, loading, error, setError})=>{
-  useEffect(() => {
-    const loadVocabulary = async ()=>{
-        try{
-            setLoading(true);
-            const response= await fetch('/vocabulary.json'); 
-            if (!response.ok) {
-                throw new Error('Error al cargar el vocabulario');
-            }
-            const data = await response.json();
-            setVocabularyData(data);
-        } catch (err){
-            setError(err.message);
-        } finally {
-            setLoading(false);
-        }
-    };
-    loadVocabulary();
-  }, []);
+const Spanish = ({
+    searchTerm, 
+    setSearchTerm, 
+    searchResult,
+    setSearchResult, 
+    vocabularyData, 
+}) => {
 
 
-  const handleSearch = (e)=>{
-    const term=e.target.value.toLowerCase();
+  const handleSearch = (e) => {
+    const term = e.target.value.toLowerCase();
     setSearchTerm(term);
 
     if(term.trim() === ''){
@@ -30,8 +16,8 @@ const Spanish =({searchTerm, setSearchTerm, searchResult, setSearchResult, vocab
         return;
     }
     
-    const foundWord =vocabularyData.find((item)=>
-    item.spanish.toLowerCase() === term
+    const foundWord = vocabularyData.find((item) =>
+      item.spanish.toLowerCase() === term
     );
     if (foundWord) {
         setSearchResult(foundWord.russian);
@@ -41,22 +27,21 @@ const Spanish =({searchTerm, setSearchTerm, searchResult, setSearchResult, vocab
   };
 
   return (
-    <div className="wordContainer">
-    <h1>Español</h1>
-    <input 
+    <div className="wordContainer">  
+      <h1>Español</h1>
+      <input 
         type="text" 
         placeholder="Busca la palabra en español" 
         value={searchTerm}
         onChange={handleSearch}
-    />
-    
-    {searchResult && (
+      />
+      
+      {searchResult && (
         <div style={{ marginTop: '20px', fontSize: '24px' }}>
-            <strong>Traducción: {searchResult}</strong>
+          <strong>Traducción: {searchResult}</strong>
         </div>
-    )}
-    
-</div>
+      )}
+    </div>
   );
 };
 
